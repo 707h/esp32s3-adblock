@@ -1,0 +1,26 @@
+# ---- secrets: never commit ----
+src/secrets.h
+secrets.h
+
+# ---- build output ----
+.pio/
+.pioenvs/
+.piolibdeps/
+.vscode/
+
+# ---- generated data ----
+data/blocklist.bin
+data/*.bin
+
+# ---- python ----
+__pycache__/
+*.pyc
+
+# ---- logs / scratch ----
+*.log
+boot.txt
+
+# ---- OS ----
+.DS_Store
+Thumbs.db
+desktop.ini
